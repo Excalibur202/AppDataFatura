@@ -1,0 +1,42 @@
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe.config
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.pdb
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csprojAssemblyReference.cache
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Properties.Resources.resources
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.GenerateResource.cache
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.CoreCompileInputs.cache
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.exe
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.pdb
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Pesquisa.resources
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Tabela.resources
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Encomendado.resources
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Dossier.resources
+C:\Users\Rui Oliveira\Desktop\Aplicação para Zeca\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.MainMenu.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe.config
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.pdb
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csprojAssemblyReference.cache
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Dossier.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Encomendado.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.MainMenu.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Pesquisa.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Properties.Resources.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Tabela.resources
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.GenerateResource.cache
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.CoreCompileInputs.cache
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.exe
+C:\Users\kikoa\OneDrive\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.pdb
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe.config
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.exe
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\bin\Debug\AplicacaoNotAlone.pdb
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csprojAssemblyReference.cache
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Dossier.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Encomendado.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.MainMenu.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Pesquisa.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Properties.Resources.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.Tabela.resources
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.GenerateResource.cache
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.csproj.CoreCompileInputs.cache
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.exe
+C:\Users\Rui Oliveira\Desktop\AplicacaoNotAlone\AplicacaoNotAlone\obj\Debug\AplicacaoNotAlone.pdb
