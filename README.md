@@ -132,7 +132,7 @@ Os dados são carregados automaticamente quando o aplicativo é iniciado.
 ## Screenshots
 
 ### Main Menu
-![MENU](screenshots/Main menu.png)
+![MENU](screenshots/Main_menu.png)
 
 ### Gestão da Empresa
 ![DOSSIER](screenshots/Dossier.png)
