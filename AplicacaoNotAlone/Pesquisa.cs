@@ -22,8 +22,6 @@ namespace AplicacaoNotAlone
         private string numOP;
         private string numData;
 
-        Tabela tabela = new Tabela();
-
         public Pesquisa()
         {
             InitializeComponent();
@@ -45,6 +43,7 @@ namespace AplicacaoNotAlone
         }
         private void Button1_Click(object sender, EventArgs e)
         {
+            Tabela tabela = new Tabela();
             dataFlag = false;
 
             DialogResult dialogResult;
