@@ -27,18 +27,45 @@ namespace AplicacaoNotAlone
 
         private void ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Dossier")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Dossier dossierForm = new Dossier();
             dossierForm.Show();
         }
 
         private void ToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Encomendado")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Encomendado encomendadoForm = new Encomendado();
             encomendadoForm.Show();
         }
 
         private void ToolStripMenuItem3_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Pesquisa")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Pesquisa pesquisaForm = new Pesquisa();
             pesquisaForm.Show();
         }
@@ -132,7 +159,7 @@ namespace AplicacaoNotAlone
             {
                 foreach(Encomendas encomenda in comercial.encomendas)
                 {
-                    dataGridViewComecials.Rows.Add(comercial.GetComercialID, encomenda.Encomenda, encomenda.Faturado);
+                    dataGridViewComecials.Rows.Add("T" + comercial.GetComercialID, encomenda.Encomenda, encomenda.Faturado);
                 }
             }
 
@@ -145,6 +172,26 @@ namespace AplicacaoNotAlone
             //        dataGridViewComecials.Rows.Add("T" + comercial.GetComercialID, );
             //        //dataGridViewComecials.Rows.Add("T" + empresa.comercials[empresa.comercials.Count].GetComercialID, empresa.comercials);
             //    }
+        }
+
+        private void MainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                DialogResult result = MessageBox.Show("Quer mesmo fechar o programa?", "Exit", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    e.Cancel = true;
+                }
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

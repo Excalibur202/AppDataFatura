@@ -120,10 +120,10 @@
             this.dataGridViewComecials.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewComecials.Location = new System.Drawing.Point(400, 87);
             this.dataGridViewComecials.Name = "dataGridViewComecials";
+            this.dataGridViewComecials.ReadOnly = true;
             this.dataGridViewComecials.Size = new System.Drawing.Size(375, 317);
             this.dataGridViewComecials.TabIndex = 4;
             this.dataGridViewComecials.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewComecials_CellContentClick);
-            this.dataGridViewComecials.ReadOnly = true;
             // 
             // openFileDialog1
             // 
@@ -179,10 +179,14 @@
             this.Controls.Add(this.dataGridViewComecials);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
@@ -192,7 +196,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewComecials)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+
         }
 
         #endregion

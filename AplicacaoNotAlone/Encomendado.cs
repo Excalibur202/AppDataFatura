@@ -136,11 +136,29 @@ namespace AplicacaoNotAlone
         }
         private void ToolStripMenuItem3_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Encomendado")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Encomendado encomendadoForm = new Encomendado();
             encomendadoForm.Show();
         }
         private void ToolStripMenuItem4_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Pesquisa")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Pesquisa pesquisaForm = new Pesquisa();
             pesquisaForm.Show();
         }

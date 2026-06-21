@@ -281,24 +281,60 @@ namespace AplicacaoNotAlone
 
         private void ToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "MainMenu")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             MainMenu menuForm = new MainMenu();
             menuForm.Show();
         }
 
         private void ToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Dossier")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Dossier dossierForm = new Dossier();
             dossierForm.Show();
         }
 
         private void ToolStripMenuItem3_Click_1(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Encomendado")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Encomendado encomendadoForm = new Encomendado();
             encomendadoForm.Show();
         }
 
         private void ToolStripMenuItem4_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Pesquisa")
+                {
+                    f.Focus();
+                    return;
+                }
+            }
+
             Pesquisa pesquisaForm = new Pesquisa();
             //pesquisaForm.StartPosition = FormStartPosition.Manual;
             //pesquisaForm.Location = new Point(0, 0);
