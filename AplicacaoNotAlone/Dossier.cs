@@ -223,8 +223,13 @@ namespace AplicacaoNotAlone
       
         private void ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            MainMenu menuForm = new MainMenu();
-            menuForm.Show();
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "MainMenu")
+                {
+                    f.Focus();
+                }
+            }
         }
 
         private void ToolStripMenuItem2_Click(object sender, EventArgs e)

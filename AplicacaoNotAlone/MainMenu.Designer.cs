@@ -123,6 +123,7 @@
             this.dataGridViewComecials.Size = new System.Drawing.Size(375, 317);
             this.dataGridViewComecials.TabIndex = 4;
             this.dataGridViewComecials.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewComecials_CellContentClick);
+            this.dataGridViewComecials.ReadOnly = true;
             // 
             // openFileDialog1
             // 
@@ -191,7 +192,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewComecials)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         }
 
         #endregion

@@ -13,6 +13,7 @@ namespace AplicacaoNotAlone
     public partial class Pesquisa : Form
     {
         List<Encomendas> zeEncomendas = new List<Encomendas>();
+        MainMenu menu = new MainMenu();
 
         private bool encomendaFlag = false;
         private bool opFlag = false;
@@ -25,6 +26,15 @@ namespace AplicacaoNotAlone
         public Pesquisa()
         {
             InitializeComponent();
+
+            foreach (Form f in Application.OpenForms)
+            {
+                if(f.Name == "MainMenu")
+                {
+                    this.StartPosition = FormStartPosition.Manual;
+                    this.Location = f.Location;
+                }
+            }
         }
 
         private void Pesquisa_Load(object sender, EventArgs e)

@@ -112,11 +112,25 @@ namespace AplicacaoNotAlone
 
         private void ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            MainMenu menuForm = new MainMenu();
-            menuForm.Show();
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "MainMenu")
+                {
+                    f.Focus();
+                }
+            }
         }
         private void ToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "Dossier")
+                {
+                    f.Focus();
+                    return;
+                } 
+            }
+
             Dossier dossierForm = new Dossier();
             dossierForm.Show();
         }
@@ -128,8 +142,6 @@ namespace AplicacaoNotAlone
         private void ToolStripMenuItem4_Click(object sender, EventArgs e)
         {
             Pesquisa pesquisaForm = new Pesquisa();
-            pesquisaForm.StartPosition = FormStartPosition.Manual;
-            pesquisaForm.Location = new Point(0, 0);
             pesquisaForm.Show();
         }
 

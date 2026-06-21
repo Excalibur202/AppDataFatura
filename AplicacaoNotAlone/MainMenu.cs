@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -52,6 +53,7 @@ namespace AplicacaoNotAlone
                 string selectedFile = openFileDialog1.FileName;
                 ShowMyImage(selectedFile, pictureBox1.Width, pictureBox1.Height);
                 button1.Hide();
+                MyImage.SaveBinary("Saves", "empresaImage");
                 //pictureBox1.SaveBinary("Saves", "empresasInfo");
             }
         }
@@ -79,6 +81,15 @@ namespace AplicacaoNotAlone
         private void MainMenu_Load(object sender, EventArgs e)
         {
             empresas = empresas.LoadBinary("Saves", "empresasInfo");
+            MyImage = MyImage.LoadBinary("Saves", "empresaImage");
+
+            if (MyImage != null)
+            {
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBox1.ClientSize = new Size(pictureBox1.Width, pictureBox1.Height);
+                pictureBox1.Image = (Image)MyImage;
+                button1.Hide();
+            }
 
             foreach (Empresa empresa in empresas)
             {
@@ -103,14 +114,13 @@ namespace AplicacaoNotAlone
 
         private void LoadComercialsTable()
         {
-            string encomendadoTotal;
-
+            dataGridViewComecials.Rows.Clear();
             dataGridViewComecials.RowHeadersVisible = false;
-            dataGridViewComecials.ColumnCount = 4;
+            dataGridViewComecials.ColumnCount = 3;
             dataGridViewComecials.Columns[0].Name = "Comercial";
             dataGridViewComecials.Columns[1].Name = "Encomendaddo";
             dataGridViewComecials.Columns[2].Name = "Faturado";
-            dataGridViewComecials.Columns[3].Name = "Comicao";
+            //dataGridViewComecials.Columns[3].Name = "Comicao";
 
             for(int i = 0; i < dataGridViewComecials.ColumnCount; i++)
             {
@@ -120,7 +130,10 @@ namespace AplicacaoNotAlone
 
             foreach(Comercial comercial in empresas[empresaComboBox.SelectedIndex].comercials)
             {
-
+                foreach(Encomendas encomenda in comercial.encomendas)
+                {
+                    dataGridViewComecials.Rows.Add(comercial.GetComercialID, encomenda.Encomenda, encomenda.Faturado);
+                }
             }
 
 
